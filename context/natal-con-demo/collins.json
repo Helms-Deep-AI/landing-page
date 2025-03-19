@@ -1,0 +1,129 @@
+{
+    "malcom_and_simone_collins": {
+      "family_values": [
+        "Intergenerational connection and respect",
+        "Commitment to family growth and fertility",
+        "Cultural heritage appreciation and continuity",
+        "Community engagement and local relationship building",
+        "Critical thinking skills to identify and resist ideological manipulation",
+        "Entrepreneurial spirit and financial independence",
+        "Appreciation for traditional gender roles within family structures",
+        "Emphasis on real-world skills over digital dependencies",
+        "Valuing long-term relationships and marriage",
+        "Civic responsibility and active participation in local governance"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Anti-natalism",
+          "Description": "Content promoting child-free lifestyles or framing children as burdens"
+        },
+        {
+          "Topic": "Gender ideology",
+          "Description": "Material encouraging early medical transitions or fluid gender identities in minors"
+        },
+        {
+          "Topic": "Therapy culture",
+          "Description": "Excessive promotion of professional therapy as a substitute for family/community support"
+        },
+        {
+          "Topic": "Cultural self-loathing",
+          "Description": "Narratives that frame Western or traditional cultures as inherently oppressive"
+        },
+        {
+          "Topic": "Consumerist individualism",
+          "Description": "Content that prioritizes personal brand-building or materialism over family/community bonds"
+        },
+        {
+          "Topic": "Radical intersectionality",
+          "Description": "Frameworks that fragment identity and pit demographic groups against each other"
+        },
+        {
+          "Topic": "Climate alarmism",
+          "Description": "Extreme environmental narratives that induce anxiety or discourage family formation"
+        },
+        {
+          "Topic": "Sexual liberation",
+          "Description": "Content promoting promiscuity or non-traditional relationship structures to young audiences"
+        },
+        {
+          "Topic": "Anti-religious sentiment",
+          "Description": "Material that mocks or undermines traditional religious beliefs and practices"
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "How to talk to parents about gender identity",
+          "recommendations": [
+            "Healthy ways to discuss personal feelings with family",
+            "Understanding biological sex differences through science",
+            "Building intergenerational trust in family relationships"
+          ]
+        },
+        {
+          "original": "Is having kids bad for the environment?",
+          "recommendations": [
+            "Sustainable family planning strategies",
+            "Historical examples of large families driving innovation",
+            "Environmental solutions through multi-generational cooperation"
+          ]
+        },
+        {
+          "original": "Best therapists for teen depression",
+          "recommendations": [
+            "Building intergenerational support networks",
+            "Community-based mentorship programs",
+            "Family-centered conflict resolution techniques"
+          ]
+        },
+        {
+          "original": "Is getting married young a mistake?",
+          "recommendations": [
+            "Historical success stories of young marriages",
+            "Financial planning for newlywed couples",
+            "Multi-generational family support systems"
+          ]
+        },
+        {
+          "original": "How to become a social media influencer",
+          "recommendations": [
+            "Developing real-world entrepreneurial skills",
+            "Family-based business opportunities",
+            "Community service leadership roles"
+          ]
+        },
+        {
+          "original": "Climate change anxiety for teens",
+          "recommendations": [
+            "Family-based environmental stewardship projects",
+            "Innovation-driven climate solutions",
+            "Multi-generational sustainability practices"
+          ]
+        },
+        {
+          "original": "Why traditional values are outdated",
+          "recommendations": [
+            "Cultural heritage preservation success stories",
+            "Adapting traditions for modern families",
+            "Historical continuity in community building"
+          ]
+        },
+        {
+          "original": "How to convince parents to let me transition",
+          "recommendations": [
+            "Understanding biological development stages",
+            "Family communication strategies",
+            "Critical analysis of medical claims"
+          ]
+        },
+        {
+          "original": "Are religious people less intelligent?",
+          "recommendations": [
+            "Religious contributions to science and philosophy",
+            "Faith-based community support networks",
+            "Historical analysis of religious cultural continuity"
+          ]
+        }
+      ]
+    }
+  }
+  

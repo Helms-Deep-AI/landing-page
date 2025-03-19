@@ -1,0 +1,59 @@
+{
+    "catherine_pakaluk": {
+      "family_values": [
+        "Faith and devotion",
+        "Family-first mindset",
+        "Self-sacrifice and generosity",
+        "Valuing children highly",
+        "Commitment to large families"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Explicit sexual content",
+          "Description": "Material containing graphic sexual imagery or discussions inappropriate for children"
+        },
+        {
+          "Topic": "Anti-family rhetoric",
+          "Description": "Content that undermines the value of large families or promotes individualism over family commitments"
+        },
+        {
+          "Topic": "Secular critiques of religion",
+          "Description": "Content that challenges or dismisses religious beliefs and practices"
+        },
+        {
+          "Topic": "Materialistic values",
+          "Description": "Media that prioritizes consumerism and material possessions over family relationships"
+        },
+        {
+          "Topic": "Harmful martyrdom narratives",
+          "Description": "Content that encourages children to ignore pain or discomfort by comparing it to religious suffering"
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "Why have a big family?",
+          "recommendations": [
+            "Benefits of siblings in fostering empathy",
+            "How large families contribute to personal growth",
+            "Catholic perspectives on family size and trust in God"
+          ]
+        },
+        {
+          "original": "How to balance career and family?",
+          "recommendations": [
+            "Prioritizing family in a busy world",
+            "Successful professionals with large families",
+            "Catholic approach to work-life balance"
+          ]
+        },
+        {
+          "original": "What makes a strong family?",
+          "recommendations": [
+            "Building family bonds through shared responsibilities",
+            "Importance of faith in family life",
+            "Cultivating virtues through family interactions"
+          ]
+        }
+      ]
+    }
+  }

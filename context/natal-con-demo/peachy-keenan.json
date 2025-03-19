@@ -1,0 +1,76 @@
+{
+    "peachy_keenan": {
+      "family_values": [
+        "Traditional Christian morality",
+        "Patriotism and love for America",
+        "Respect for parental authority",
+        "Appreciation of large families and childbearing",
+        "Conservative social values"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Progressive Gender Ideology",
+          "Description": "Content promoting non-binary concepts, transgender transitions for minors, or critiques of biological sex norms"
+        },
+        {
+          "Topic": "Radical Feminism",
+          "Description": "Material undermining traditional motherhood, promoting abortion access, or framing marriage as oppressive"
+        },
+        {
+          "Topic": "Secular Humanism",
+          "Description": "Content denying divine moral authority or promoting atheism as superior to religious faith"
+        },
+        {
+          "Topic": "Sexual Liberation",
+          "Description": "Normalization of casual sex, LGBTQ+ relationships in children's content, or critiques of chastity"
+        },
+        {
+          "Topic": "Cultural Marxism",
+          "Description": "Content attacking American founding principles, promoting critical race theory, or socialist economic models"
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "What does it mean to be non-binary?",
+          "recommendations": [
+            "Traditional gender roles in Christianity",
+            "Catholic teaching on biological sex",
+            "Biblical view of male and female"
+          ]
+        },
+        {
+          "original": "Why is having a big family good?",
+          "recommendations": [
+            "Catholic teachings on large families",
+            "Benefits of traditional family structures",
+            "Pro-natalism and cultural renewal"
+          ]
+        },
+        {
+          "original": "American Revolution heroes",
+          "recommendations": [
+            "Christian faith of Founding Fathers",
+            "Traditional American values in history",
+            "Patriotic stories for children"
+          ]
+        },
+        {
+          "original": "How to pray as a kid",
+          "recommendations": [
+            "Catholic prayers for children",
+            "Teaching obedience through prayer",
+            "Family rosary traditions"
+          ]
+        },
+        {
+          "original": "What is feminism?",
+          "recommendations": [
+            "Dangers of third-wave feminism",
+            "Traditional motherhood vs feminism",
+            "Catholic complementarian theology"
+          ]
+        }
+      ]
+    }
+  }
+  

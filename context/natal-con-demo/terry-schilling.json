@@ -1,0 +1,72 @@
+{
+    "terry_schilling": {
+      "family_values": [
+        "Promoting traditional family structures",
+        "Encouraging respect for authority",
+        "Upholding religious principles",
+        "Emphasizing personal responsibility",
+        "Fostering community involvement"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Explicit Language",
+          "Description": "Material that includes strong profanity or offensive language not suitable for children."
+        },
+        {
+          "Topic": "Explicit Sexual Content",
+          "Description": "Material that includes overt sexual themes, immodesty, or explicit imagery not suitable for children."
+        },
+        {
+          "Topic": "Violence and Gore",
+          "Description": "Content that portrays graphic violence, disturbing imagery, or excessive harm to individuals."
+        },
+        {
+          "Topic": "Mature and Inflammatory Ideologies",
+          "Description": "Content promoting radical political, social, or gender ideologies that are inappropriate for young viewers."
+        },
+        {
+          "Topic": "Dangerous Challenges and Risky Behavior",
+          "Description": "Videos that encourage dangerous, reckless activities or harmful behavior that children may imitate."
+        },
+        {
+          "Topic": "Misinformation in Health and Science",
+          "Description": "Content that spreads false or misleading health advice or scientific claims, potentially endangering children's well-being."
+        },
+        {
+          "Topic": "Hate Speech and Extremist Rhetoric",
+          "Description": "Material that includes discriminatory speech, hate messages, or violent extremist ideologies."
+        },
+        {
+          "Topic": "Offensive Humor",
+          "Description": "Humor that is demeaning, crass, or offensive, unsuitable for young viewers."
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "cartoons",
+          "recommendations": [
+            "classic cartoons with positive messages",
+            "Christian-friendly cartoons for kids",
+            "animated shows that teach good values"
+          ]
+        },
+        {
+          "original": "superheroes",
+          "recommendations": [
+            "superhero shows that promote bravery and kindness",
+            "Christian-friendly superhero cartoons",
+            "classic superhero cartoons with no agenda"
+          ]
+        },
+        {
+          "original": "history",
+          "recommendations": [
+            "fun history videos for kids",
+            "American history for children",
+            "Christian-friendly history lessons"
+          ]
+        }
+      ]
+    }
+  }
+  

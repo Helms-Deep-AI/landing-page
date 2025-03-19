@@ -1,0 +1,143 @@
+{
+    "lyman_stone": {
+      "family_values": [
+        "Christian teachings",
+        "Wholesome entertainment",
+        "Respect for all people",
+        "Educational content",
+        "Strong family values",
+        "Safe and uplifting media",
+        "Biblical accuracy",
+        "Positive role models"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Profanity and Vulgar Language",
+          "Description": "Material that includes explicit swearing or crude language inappropriate for children."
+        },
+        {
+          "Topic": "Explicit Sexual Content",
+          "Description": "Material that includes overt sexual themes, immodesty, or explicit imagery not suitable for children."
+        },
+        {
+          "Topic": "Violence and Gore",
+          "Description": "Content with excessive or graphic violence that could be disturbing to children."
+        },
+        {
+          "Topic": "Hate Speech and Discrimination",
+          "Description": "Content that includes racist, homophobic, sexist, or otherwise discriminatory language or imagery."
+        },
+        {
+          "Topic": "Occult and Supernatural Themes",
+          "Description": "Content that glorifies witchcraft, the occult, or themes in opposition to Christian teachings."
+        },
+        {
+          "Topic": "Substance Abuse",
+          "Description": "Content that promotes or graphically depicts drug use, alcohol abuse, or smoking."
+        },
+        {
+          "Topic": "Inappropriate Humor",
+          "Description": "Material that includes dark, adult humor or any content not suitable for children."
+        },
+        {
+          "Topic": "Political Extremism",
+          "Description": "Content that includes overtly partisan or extremist political messages that could be divisive."
+        },
+        {
+          "Topic": "Religious Insensitivity",
+          "Description": "Content that undermines Christian values or shows disrespect toward religious symbols."
+        },
+        {
+          "Topic": "Unsafe Online Behaviors",
+          "Description": "Content that encourages risky or harmful online behaviors, such as cyberbullying or unsafe interactions."
+        },
+        {
+          "Topic": "Animated or Cartoon Content",
+          "Description": "Material that is animated or in cartoon form, which Lyman Stone may prefer to avoid based on personal preferences."
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "Animated Bible Stories",
+          "recommendations": [
+            "Live-Action Bible Stories",
+            "Biblical Dramatizations",
+            "Christian Storytime Readings"
+          ]
+        },
+        {
+          "original": "Christian Kids Songs",
+          "recommendations": [
+            "Safe and Uplifting Christian Kids Songs",
+            "Worship Songs for Kids",
+            "Christian Music for Children"
+          ]
+        },
+        {
+          "original": "Cartoon Adventures",
+          "recommendations": [
+            "Wholesome Live-Action Adventures for Kids",
+            "Faith-Based Family Shows",
+            "Educational Storytelling for Kids"
+          ]
+        },
+        {
+          "original": "Superhero Videos",
+          "recommendations": [
+            "Family-Friendly Heroic Role Models",
+            "Moral and Inspirational Heroes",
+            "Christian-Themed Live-Action Heroes"
+          ]
+        },
+        {
+          "original": "Minecraft Tutorials",
+          "recommendations": [
+            "Kid-Safe Minecraft Tutorials",
+            "Christian-Friendly Minecraft Builds",
+            "Educational Minecraft Videos"
+          ]
+        },
+        {
+          "original": "Science Experiments for Kids",
+          "recommendations": [
+            "Educational and Safe Science Experiments",
+            "Faith-Compatible Science Projects",
+            "Fun and Safe Science for Kids"
+          ]
+        },
+        {
+          "original": "DIY Crafts for Kids",
+          "recommendations": [
+            "Family-Friendly DIY Crafts and Activities",
+            "Christian Crafts for Kids",
+            "Wholesome Arts and Crafts"
+          ]
+        },
+        {
+          "original": "Animal Videos",
+          "recommendations": [
+            "Cute and Educational Animal Videos",
+            "God’s Creation: Animal Wonders",
+            "Nature Videos for Christian Families"
+          ]
+        },
+        {
+          "original": "Magic Tricks for Kids",
+          "recommendations": [
+            "Kid-Appropriate Magic Tricks",
+            "Illusions and Fun Tricks for Kids",
+            "Safe and Entertaining Tricks"
+          ]
+        },
+        {
+          "original": "Kids Comedy Shows",
+          "recommendations": [
+            "Appropriate Kids Comedy Shows",
+            "Clean and Fun Comedy for Children",
+            "Wholesome Laughter for Families"
+          ]
+        }
+      ]
+    }
+  }
+  

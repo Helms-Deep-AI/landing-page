@@ -1,0 +1,110 @@
+{
+    "bryan_caplan": {
+      "family_values": [
+        "Free speech and open debate",
+        "Empirical evidence over ideology",
+        "Meritocracy and individual responsibility",
+        "Libertarian economic principles",
+        "Skepticism of identity politics",
+        "Encouraging rational and critical thinking",
+        "Parental authority over children’s education"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Feminist narratives",
+          "Description": "Material that presents feminism as assuming all men benefit from systemic privilege, which may not reflect the complexities of gender issues."
+        },
+        {
+          "Topic": "Woke ideology",
+          "Description": "Content that advocates for canceling individuals based on differing opinions, rather than fostering respectful debate and understanding."
+        },
+        {
+          "Topic": "Identity politics",
+          "Description": "Material that overemphasizes group identity as a source of victimhood, which can divide rather than unite individuals."
+        },
+        {
+          "Topic": "Misleading statistics",
+          "Description": "Content that uses selective or distorted statistics to promote ideological views about gender or racial disparities, often without proper context."
+        },
+        {
+          "Topic": "Government intervention",
+          "Description": "Content that advocates for extensive government control over markets without a balanced view of the potential impact on economic freedom."
+        },
+        {
+          "Topic": "Ad hominem rhetoric",
+          "Description": "Material that relies on emotional appeals or personal attacks instead of reasoned arguments and evidence-based discussion."
+        },
+        {
+          "Topic": "Censorship",
+          "Description": "Content that promotes the suppression of speech or the censoring of ideas rather than encouraging open discussion and debate."
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "What is feminism?",
+          "transformed_options": [
+            "How have men's and women's roles changed over time?",
+            "What rights do men and women have in different countries?",
+            "How have women contributed to history?"
+          ]
+        },
+        {
+          "original": "Why do people get canceled?",
+          "transformed_options": [
+            "How do societies handle disagreements?",
+            "What is freedom of speech and why is it important?",
+            "How can people debate respectfully?"
+          ]
+        },
+        {
+          "original": "Why do some people make more money than others?",
+          "transformed_options": [
+            "What skills help people succeed in different jobs?",
+            "How does education affect how much money people earn?",
+            "What are the different ways people can start a business?"
+          ]
+        },
+        {
+          "original": "What is immigration?",
+          "transformed_options": [
+            "Why do people move to new countries?",
+            "How do different countries handle immigration?",
+            "What are the effects of immigration on the economy?"
+          ]
+        },
+        {
+          "original": "What does woke mean?",
+          "transformed_options": [
+            "How do people try to change society?",
+            "What are different opinions about fairness?",
+            "How do social movements affect history?"
+          ]
+        },
+        {
+          "original": "Are boys treated unfairly?",
+          "transformed_options": [
+            "How do schools treat boys and girls differently?",
+            "What are different ideas about fairness?",
+            "How can we make sure everyone is treated fairly?"
+          ]
+        },
+        {
+          "original": "What is free speech?",
+          "transformed_options": [
+            "Why is it important to let people share ideas?",
+            "How do different countries handle free speech?",
+            "What are some examples of famous free speech debates?"
+          ]
+        },
+        {
+          "original": "Is social justice good or bad?",
+          "transformed_options": [
+            "What are different opinions on fairness in society?",
+            "How do people try to make laws more fair?",
+            "What are some examples of people making society better?"
+          ]
+        }
+      ]
+    }
+  }
+  

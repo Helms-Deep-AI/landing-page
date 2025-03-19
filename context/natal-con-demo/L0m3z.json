@@ -1,0 +1,76 @@
+{
+    "L0m3z": {
+      "family_values": [
+        "Intellectual curiosity and critical thinking",
+        "Traditional family structures and gender roles",
+        "Religious and cultural heritage (particularly Jewish traditions)",
+        "Free speech and open discourse", 
+        "Personal responsibility and self-reliance"
+      ],
+      "content_to_avoid": [
+        {
+          "Topic": "Explicit Sexual Content",
+          "Description": "Material containing graphic sexual imagery or descriptions inappropriate for children"
+        },
+        {
+          "Topic": "Ideological Indoctrination",
+          "Description": "Content that presents political or social ideas as absolute truth without nuance"
+        },
+        {
+          "Topic": "Anti-Religious Rhetoric",
+          "Description": "Videos mocking or disparaging religious beliefs, especially Judaism"
+        },
+        {
+          "Topic": "Nihilistic Content", 
+          "Description": "Material promoting destructive behaviors or undermining traditional ethical frameworks"
+        },
+        {
+          "Topic": "Graphic Violence",
+          "Description": "Age-inappropriate depictions of violence or gore unsuitable for young viewers"
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "What is a family?",
+          "recommendations": [
+            "Traditional family structures across cultures",
+            "Jewish family traditions and values",
+            "Biological vs chosen family relationships"
+          ]
+        },
+        {
+          "original": "Why do people believe in God?",
+          "recommendations": [
+            "Historical development of religious beliefs",
+            "Jewish theological perspectives",
+            "Comparative religion studies for children"
+          ]
+        },
+        {
+          "original": "How are babies made?",
+          "recommendations": [
+            "Age-appropriate human development guides",
+            "Biological reproduction basics",
+            "Family creation through adoption"
+          ]
+        },
+        {
+          "original": "What happens when you die?",
+          "recommendations": [
+            "Jewish perspectives on afterlife",
+            "Cultural death rituals explained",
+            "Scientific explanations of decomposition"
+          ]
+        },
+        {
+          "original": "Why do people have different skin colors?",
+          "recommendations": [
+            "Genetics of human pigmentation",
+            "Cultural diversity appreciation",
+            "Historical migration patterns"
+          ]
+        }
+      ]
+    }
+  }
+  

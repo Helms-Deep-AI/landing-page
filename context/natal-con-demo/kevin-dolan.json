@@ -1,0 +1,61 @@
+{
+    "kevin_dolan": {
+      "family_values": [
+        "Family Unity & Eternal Bonds",
+        "Modesty & Moral Purity",
+        "Responsibility & Work Ethic",
+        "Service & Compassion",
+        "Respect for Tradition & Faith"
+      ],
+      "content_to_avoid": [
+        {"Topic": "Explicit Sexual Content", "Description": "Material that includes overt sexual themes, immodesty, or explicit imagery not suitable for children."},
+        {"Topic": "Graphic Violence & Gore", "Description": "Content featuring intense violence or disturbing images that could negatively impact a child’s sense of security."},
+        {"Topic": "Substance Abuse & Glorification", "Description": "Media that normalizes or glorifies the use of drugs, alcohol, or other harmful substances."},
+        {"Topic": "Anti-Traditional or Subversive Narratives", "Description": "Content that undermines or challenges established family values and religious principles."},
+        {"Topic": "Excessive Profanity & Vulgarity", "Description": "Videos or discussions laden with swearing and explicit language that detracts from a wholesome environment."}
+      ],
+      "example_queries": [
+        {
+          "original": "Mormon family activities",
+          "recommendations": [
+            "Wholesome family activities for Mormon families",
+            "Fun and educational activities for LDS families",
+            "Family-centered activities to strengthen faith"
+          ]
+        },
+        {
+          "original": "Bible stories for children",
+          "recommendations": [
+            "Animated Bible stories for kids",
+            "Faith-based Bible stories for young children",
+            "Bible stories with moral lessons for children"
+          ]
+        },
+        {
+          "original": "How to teach kids modesty",
+          "recommendations": [
+            "Modesty lessons for children",
+            "Age-appropriate ways to teach modesty",
+            "Modesty teachings for young kids"
+          ]
+        },
+        {
+          "original": "Service projects for kids",
+          "recommendations": [
+            "Family-friendly service projects for children",
+            "Ideas for service projects for kids in the community",
+            "Fun and meaningful service activities for young children"
+          ]
+        },
+        {
+          "original": "Faith-based cartoons",
+          "recommendations": [
+            "Faith-centered cartoons for kids",
+            "Wholesome animated shows with religious values",
+            "Animated cartoons teaching faith and morality"
+          ]
+        }
+      ]
+    }
+  }
+  

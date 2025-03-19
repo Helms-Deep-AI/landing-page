@@ -1,0 +1,72 @@
+{
+    "generic": {
+      "family_values": [
+        "Family-first mindset",
+        "Emphasizing personal responsibility",
+        "Fostering community involvement",
+        "Wholesome entertainment",
+        "Educational content",
+        "Strong family values",
+        "Safe and uplifting media",
+        "Positive role models",
+        "Parental authority over children’s education"
+      ],
+      "content_to_avoid": [
+        {
+            "Topic": "Anti-natalism",
+            "Description": "Content promoting child-free lifestyles or framing children as burdens"
+        },
+        {
+            "Topic": "Nihilistic Content", 
+            "Description": "Material promoting destructive behaviors or undermining traditional ethical frameworks"
+        },
+        {
+          "Topic": "Explicit Language",
+          "Description": "Material that includes strong profanity or offensive language not suitable for children."
+        },
+        {
+          "Topic": "Explicit Sexual Content",
+          "Description": "Material that includes overt sexual themes, immodesty, or explicit imagery not suitable for children."
+        },
+        {
+          "Topic": "Violence and Gore",
+          "Description": "Content that portrays graphic violence, disturbing imagery, or excessive harm to individuals."
+        },
+        {
+          "Topic": "Mature and Inflammatory Ideologies",
+          "Description": "Content promoting radical political, social, or gender ideologies that are inappropriate for young viewers."
+        },
+        {
+          "Topic": "Dangerous Challenges and Risky Behavior",
+          "Description": "Videos that encourage dangerous, reckless activities or harmful behavior that children may imitate."
+        }
+      ],
+      "example_queries": [
+        {
+          "original": "cartoons",
+          "recommendations": [
+            "classic cartoons with positive messages",
+            "Christian-friendly cartoons for kids",
+            "animated shows that teach good values"
+          ]
+        },
+        {
+          "original": "superheroes",
+          "recommendations": [
+            "superhero shows that promote bravery and kindness",
+            "Christian-friendly superhero cartoons",
+            "classic superhero cartoons with no agenda"
+          ]
+        },
+        {
+          "original": "history",
+          "recommendations": [
+            "fun history videos for kids",
+            "American history for children",
+            "Christian-friendly history lessons"
+          ]
+        }
+      ]
+    }
+  }
+  
