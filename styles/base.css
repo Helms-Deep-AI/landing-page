@@ -110,6 +110,16 @@ nav {
     color: #c0aa76;
 }
 
+.nav-avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 18px;
+    vertical-align: middle;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
