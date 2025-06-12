@@ -163,4 +163,77 @@ nav {
     .nav-links {
         gap: 10px;
     }
+}
+
+.blog-content {
+    font-variant: normal;
+    text-transform: none;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.blog-content ul {
+    list-style-type: disc;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.blog-content li {
+    margin-bottom: 0.5em;
+    font-size: 1.05em;
+    text-align: left;
+}
+
+.blog-content h2, .blog-content h3, .blog-content h4 {
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.blog-content a {
+    color: #c0aa76;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.blog-ref {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #c0aa76;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.blog-ref:hover::after {
+    content: attr(data-url);
+    position: absolute;
+    background: #222;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.95em;
+    white-space: pre-line;
+    z-index: 10;
+    left: 100%;
+    top: 0;
+    margin-left: 6px;
+}
+
+/* Remove button-like style for blog-content a inside references */
+.blog-content a.blog-ref {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    font-weight: normal;
+    color: #c0aa76;
+    text-decoration: underline dotted;
 } 
