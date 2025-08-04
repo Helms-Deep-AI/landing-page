@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #0a1929 0%, #000000 100%);
+            color: #ffffff;
+        }
+        
+        header {
+            width: 100%;
+            padding: 30px 20px;
+            border-bottom: 1px solid #2a4a6a;
+        }
+        
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            text-shadow: 0 0 10px rgba(100, 149, 237, 0.5);
+            letter-spacing: 1px;
+            margin: 0;
+        }
+        
+        .avatar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px 0;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(10, 25, 41, 0.7);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 800px;
+        }
+        
+        .avatar-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        
+        section {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(10, 25, 41, 0.5);
+            border-radius: 10px;
+            border: 1px solid #2a4a6a;
+        }
+        
+        p {
+            line-height: 1.8;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        a {
+            color: #c0aa76;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 1px solid #c0aa76;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        a:hover {
+            background-color: #c0aa76;
+            color: #0a1929;
+            text-shadow: none;
+        }
+        
+        /* Navigation Styles */
+        nav {
+            width: 100%;
+            padding: 20px;
+            background: rgba(10, 25, 41, 0.8);
+            border-bottom: 1px solid #2a4a6a;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            border: none;
+            padding: 5px 10px;
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #c0aa76;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .nav-links a:hover {
+            background-color: transparent;
+            color: #c0aa76;
+        }
+        
+        /* Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-toggle {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(10, 25, 41, 0.95);
+            border: 1px solid #2a4a6a;
+            border-radius: 10px;
+            min-width: 250px;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        
+        .dropdown-section {
+            padding: 20px;
+            border-bottom: 1px solid #2a4a6a;
+        }
+        
+        .dropdown-section p {
+            color: #c0aa76;
+            font-size: 1rem;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .dropdown-content {
+            display: flex;
+            padding: 20px;
+            gap: 30px;
+        }
+        
+        .dropdown-column {
+            flex: 1;
+        }
+        
+        .dropdown-menu a {
+            display: block;
+            padding: 12px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .dropdown-menu a:hover {
+            background: rgba(192, 170, 118, 0.2);
+            color: #c0aa76;
+        }
+        
+        .dropdown-menu strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .dropdown-menu span {
+            display: block;
+            font-size: 0.9rem;
+            color: #cccccc;
+            line-height: 1.4;
+        }
+        
+        .nav-avatar {
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 18px;
+            vertical-align: middle;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .avatar-container {
+                margin: 20px 0;
+                padding: 15px;
+            }
+            
+            section {
+                padding: 15px;
+                margin: 15px 0;
+            }
+            
+            p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            a {
+                padding: 8px 16px;
+            }
+            
+            .nav-links {
+                gap: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            header {
+                padding: 20px 10px;
+            }
+            
+            .avatar-container {
+                margin: 15px 0;
+                padding: 10px;
+            }
+            
+            section {
+                padding: 12px;
+                width: 95%;
+            }
+            
+            p {
+                margin-bottom: 15px;
+            }
+            
+            .nav-links {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="assets/avatar.png" alt="Helm's Deep Avatar" class="nav-avatar">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Solutions</a>
+                <div class="dropdown-menu">
+                    <a href="safety-audit.html">Safety Audit</a>
+                    <a href="parental-values-benchmark.html">Parental Values Benchmark</a>
+                    <a href="values-aligned-tutor.html">Values-Aligned Tutor</a>
+                </div>
+            </div>
+            <a href="blog.html">Blog</a>
+        </div>
+    </nav>
+
+    <section>
+        <h2 class="section-title">See How Helm's Deep Works for Your Family</h2>
+        <div class="product-image-container">
+            <img src="assets/demo_screenshots/signup.png" alt="Sign Up Demo" class="product-image" style="max-width:400px;">
+        </div>
+        <h3>Step 1: Choose Your Family's Faith</h3>
+        <p>During sign up, parents select their family's religion or worldview. This ensures that all content and answers are filtered through the lens of your core beliefs.</p>
+
+        <div class="product-image-container">
+            <img src="assets/demo_screenshots/values.png" alt="Enter Values Demo" class="product-image" style="max-width:400px;">
+        </div>
+        <h3>Step 2: Define Your Family Values</h3>
+        <p>Next, you enter the values that matter most to your family. Helm's Deep AI uses these to align every answer, recommendation, and filter to your unique standards.</p>
+
+        <div class="product-image-container">
+            <img src="assets/demo_screenshots/chat.png" alt="Safe Chat Demo" class="product-image" style="max-width:400px;">
+        </div>
+        <h3>Step 3: Safe, Value-Aligned Chat for Your Children</h3>
+        <p>Your children gain access to a chat interface where they can ask questions and explore the world—safely. If they ask about sensitive topics, Helm's Deep only provides answers that align with your family's values, including relevant quotes from your chosen religious texts.</p>
+
+        <div class="product-image-container">
+            <img src="assets/demo_screenshots/parentmode.png" alt="Parental Oversight Demo" class="product-image" style="max-width:400px;">
+        </div>
+        <h3>Step 4: Parental Oversight & Alerts</h3>
+        <p>As a parent, you can review what your children have searched for and receive alerts if any topics you've flagged as off-limits are discussed. Helm's Deep gives you peace of mind and real control over your family's digital experience.</p>
+
+        <hr style="margin: 40px 0; border: 1px solid #2a4a6a;">
+        <h2 style="color:#c0aa76;">Helm's Deep: The Only AI That Puts Your Family's Values First</h2>
+        <p style="font-size:1.2rem;">Protect your children, empower their learning, and ensure every answer they receive is in line with your beliefs. <strong>Sign up today and take back control of your family's digital world.</strong></p>
+        <div style="margin-top:32px;">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScclGSUfr-wkRvFbefPW2_fvgTs2gxXa5xjLQuzrYziObL3iA/viewform?usp=header" class="demo-button" target="_blank">Sign Up & Protect Your Children</a>
+        </div>
+    </section>
+</body>
+</html>

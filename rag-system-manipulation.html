@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG System Manipulation Protection - Helm's Deep AI Security</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            background: linear-gradient(135deg, #0a1929 0%, #000000 100%);
+            color: #ffffff;
+        }
+        
+        h1 {
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: #c0aa76;
+            margin: 30px 0 20px 0;
+            text-shadow: 0 0 15px rgba(192, 170, 118, 0.3);
+        }
+        
+        h2 {
+            font-weight: 700;
+            font-size: 2rem;
+            color: #c0aa76;
+            margin: 30px 0 20px 0;
+        }
+        
+        .content-container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px 0;
+            padding: 40px;
+            background: rgba(10, 25, 41, 0.7);
+            border-radius: 15px;
+            border: 1px solid #2a4a6a;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        p {
+            line-height: 1.8;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        
+        /* Navigation Styles */
+        nav {
+            width: 100%;
+            padding: 20px;
+            background: rgba(10, 25, 41, 0.8);
+            border-bottom: 1px solid #2a4a6a;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: #c0aa76;
+            text-decoration: none;
+            padding: 5px 10px;
+            position: relative;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #c0aa76;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .nav-links a:hover {
+            background-color: transparent;
+            color: #c0aa76;
+        }
+        
+        /* Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-toggle {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(10, 25, 41, 0.95);
+            border: 1px solid #2a4a6a;
+            border-radius: 10px;
+            min-width: 250px;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        
+        .dropdown-section {
+            padding: 20px;
+            border-bottom: 1px solid #2a4a6a;
+        }
+        
+        .dropdown-section p {
+            color: #c0aa76;
+            font-size: 1rem;
+            margin: 0;
+            text-align: center;
+        }
+        
+        .dropdown-content {
+            display: flex;
+            padding: 20px;
+            gap: 30px;
+        }
+        
+        .dropdown-column {
+            flex: 1;
+        }
+        
+        .dropdown-menu a {
+            display: block;
+            padding: 12px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .dropdown-menu a:hover {
+            background: rgba(192, 170, 118, 0.2);
+            color: #c0aa76;
+        }
+        
+        .dropdown-menu strong {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .dropdown-menu span {
+            display: block;
+            font-size: 0.9rem;
+            color: #cccccc;
+            line-height: 1.4;
+        }
+        
+        .nav-avatar {
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 18px;
+            vertical-align: middle;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .content-container {
+                padding: 20px;
+                margin: 20px 0;
+            }
+            
+            p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .nav-links {
+                gap: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .content-container {
+                padding: 15px;
+                width: 95%;
+            }
+            
+            .nav-links {
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="assets/avatar.png" alt="Helm's Deep Avatar" class="nav-avatar">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Solutions</a>
+                <div class="dropdown-menu">
+                    <a href="indoctrination.html">Indoctrination</a>
+                    <a href="rag-system-manipulation.html">RAG System Manipulation</a>
+                    <a href="privacy-data-leakage.html">Privacy & Data Leakage</a>
+                    <a href="ai-psychosis.html">AI-Psychosis</a>
+                </div>
+            </div>
+            <a href="blog.html">Blog</a>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <h1>🔒 RAG System Manipulation Protection</h1>
+        <p>Coming soon...</p>
+    </div>
+</body>
+</html> 

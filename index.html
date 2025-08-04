@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Helm's Deep AI Security - Defending Children's AI Apps</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
@@ -39,32 +39,60 @@
             margin: 0;
         }
         
-        .avatar-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 40px 0;
-            padding: 20px;
-            border-radius: 10px;
-            background: rgba(10, 25, 41, 0.7);
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            width: 90%;
-            max-width: 800px;
+        h2 {
+            font-weight: 700;
+            font-size: 2rem;
+            color: #c0aa76;
+            margin: 30px 0 20px 0;
         }
         
-        .avatar-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
+        h3 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            color: #c0aa76;
+            margin: 25px 0 15px 0;
+        }
+        
+        .hero-section {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px 0;
+            padding: 40px;
+            background: rgba(10, 25, 41, 0.7);
+            border-radius: 15px;
+            border: 1px solid #2a4a6a;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #c0aa76;
+            margin-bottom: 20px;
+            text-shadow: 0 0 15px rgba(192, 170, 118, 0.3);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.4rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            color: #c0aa76;
+            font-style: italic;
+            margin-bottom: 40px;
         }
         
         section {
             width: 90%;
-            max-width: 800px;
-            margin: 20px 0;
-            padding: 20px;
+            max-width: 1000px;
+            margin: 30px 0;
+            padding: 30px;
             background: rgba(10, 25, 41, 0.5);
-            border-radius: 10px;
+            border-radius: 15px;
             border: 1px solid #2a4a6a;
         }
         
@@ -72,23 +100,83 @@
             line-height: 1.8;
             font-size: 1.2rem;
             margin-bottom: 20px;
+            text-align: left;
         }
         
-        a {
+        .highlight-box {
+            background: rgba(192, 170, 118, 0.1);
+            border: 1px solid #c0aa76;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+        
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .service-card {
+            background: rgba(10, 25, 41, 0.8);
+            border: 1px solid #2a4a6a;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: left;
+        }
+        
+        .service-card h4 {
             color: #c0aa76;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #c0aa76 0%, #d4b87c 100%);
+            color: #0a1929;
             text-decoration: none;
             font-weight: bold;
-            padding: 10px 20px;
-            border: 1px solid #c0aa76;
-            border-radius: 5px;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2rem;
             transition: all 0.3s ease;
-            display: inline-block;
+            margin: 20px 10px;
+            border: none;
+            cursor: pointer;
         }
         
-        a:hover {
-            background-color: #c0aa76;
-            color: #0a1929;
-            text-shadow: none;
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(192, 170, 118, 0.3);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-item {
+            background: rgba(10, 25, 41, 0.6);
+            border: 1px solid #2a4a6a;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #c0aa76;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 1rem;
+            color: #ffffff;
+            margin-top: 10px;
         }
         
         /* Navigation Styles */
@@ -107,9 +195,14 @@
         }
         
         .nav-links a {
-            border: none;
+            color: #c0aa76;
+            text-decoration: none;
             padding: 5px 10px;
             position: relative;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
         }
         
         .nav-links a::after {
@@ -132,6 +225,55 @@
             color: #c0aa76;
         }
         
+        /* Dropdown Styles */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-toggle {
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: rgba(10, 25, 41, 0.95);
+            border: 1px solid #2a4a6a;
+            border-radius: 10px;
+            min-width: 250px;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        
+
+        
+        .dropdown-menu a {
+            display: block;
+            padding: 12px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .dropdown-menu a:hover {
+            background: rgba(192, 170, 118, 0.2);
+            color: #c0aa76;
+        }
+        
+
+        
         .nav-avatar {
             height: 36px;
             width: 36px;
@@ -144,18 +286,25 @@
         
         /* Mobile Responsive Styles */
         @media (max-width: 768px) {
-            h1 {
-                font-size: 1.8rem;
+            .hero-title {
+                font-size: 2rem;
             }
             
-            .avatar-container {
-                margin: 20px 0;
-                padding: 15px;
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            h3 {
+                font-size: 1.3rem;
             }
             
             section {
-                padding: 15px;
-                margin: 15px 0;
+                padding: 20px;
+                margin: 20px 0;
             }
             
             p {
@@ -163,8 +312,12 @@
                 line-height: 1.6;
             }
             
-            a {
-                padding: 8px 16px;
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
             
             .nav-links {
@@ -173,26 +326,25 @@
         }
         
         @media (max-width: 480px) {
-            h1 {
-                font-size: 1.5rem;
+            .hero-title {
+                font-size: 1.8rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
             }
             
             header {
                 padding: 20px 10px;
             }
             
-            .avatar-container {
-                margin: 15px 0;
-                padding: 10px;
-            }
-            
             section {
-                padding: 12px;
+                padding: 15px;
                 width: 95%;
             }
             
-            p {
-                margin-bottom: 15px;
+            .stats-grid {
+                grid-template-columns: 1fr;
             }
             
             .nav-links {
@@ -206,44 +358,140 @@
         <img src="assets/avatar.png" alt="Helm's Deep Avatar" class="nav-avatar">
         <div class="nav-links">
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Solutions</a>
+                <div class="dropdown-menu">
+                    <a href="safety-audit.html">Safety Audit</a>
+                    <a href="parental-values-benchmark.html">Parental Values Benchmark</a>
+                    <a href="values-aligned-tutor.html">Values-Aligned Tutor</a>
+                </div>
+            </div>
             <a href="blog.html">Blog</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScclGSUfr-wkRvFbefPW2_fvgTs2gxXa5xjLQuzrYziObL3iA/viewform?usp=header" target="_blank">Sign Up</a>
         </div>
     </nav>
 
+    <div class="hero-section">
+        <h1 class="hero-title">⚔️ Helm's Deep AI Security</h1>
+        <p class="hero-subtitle">Defending Children's AI Apps from Digital Saboteurs</p>
+        <p class="tagline">The First Red Team Built to Secure AI for Kids</p>
+        
+        <div class="highlight-box">
+            <p style="text-align: center; font-size: 1.3rem; margin-bottom: 0;">
+                AI apps for children are exploding in popularity—tutors, companions, learning tools, digital mentors. But behind every model endpoint lies a new risk: data leaks, prompt injections, ideological bias, or even manipulation.
+            </p>
+        </div>
+        
+        <p style="text-align: center; font-size: 1.4rem; color: #c0aa76;">
+            <strong>Helm's Deep AI Security</strong> is the first red team and audit service designed <em>specifically</em> for apps using AI with children. We expose the weaknesses—so your team can fix them before it's too late.
+        </p>
+    </div>
+
     <section>
-        <h2 class="section-title">See How Helm's Deep Works for Your Family</h2>
-        <div class="product-image-container">
-            <img src="assets/demo_screenshots/signup.png" alt="Sign Up Demo" class="product-image" style="max-width:400px;">
+        <h2>🛡️ What We Do</h2>
+        
+        <div class="service-grid">
+            <div class="service-card">
+                <h4>🚨 AI Red Teaming for Children's Apps</h4>
+                <p>We simulate real-world attacks across your AI stack—prompt injections, jailbreaks, adversarial queries, and more—mimicking what an actual attacker, troll, or exploit-minded user might do.</p>
+            </div>
+            
+            <div class="service-card">
+                <h4>🧠 Ideological & Cognitive Safety Audits</h4>
+                <p>We run your model through the <strong>Parental Values AI Safety Benchmark</strong>—a suite of trap prompts across high-risk categories. See how your model scores before a parent finds out the hard way.</p>
+            </div>
+            
+            <div class="service-card">
+                <h4>🧵 Prompt & Model Endpoint Penetration Testing</h4>
+                <p>We test every exposed interface: chatbots, agents, MCP integrations, retrieval systems—probing for unintended capabilities, prompt leakage, jailbreaks, or overreach.</p>
+            </div>
+            
+            <div class="service-card">
+                <h4>🔐 Security Reports with Fixes</h4>
+                <p>After testing, we deliver a detailed report highlighting your vulnerabilities—along with prioritized recommendations to secure your AI stack from end to end. You'll know where you stand and how to improve.</p>
+            </div>
         </div>
-        <h3>Step 1: Choose Your Family's Faith</h3>
-        <p>During sign up, parents select their family's religion or worldview. This ensures that all content and answers are filtered through the lens of your core beliefs.</p>
+    </section>
 
-        <div class="product-image-container">
-            <img src="assets/demo_screenshots/values.png" alt="Enter Values Demo" class="product-image" style="max-width:400px;">
+    <section>
+        <h2>👨‍👩‍👧‍👦 Why This Matters</h2>
+        
+        <div class="highlight-box">
+            <p style="text-align: center; font-size: 1.3rem; margin-bottom: 0;">
+                If you're building AI products for children, you're not just shipping code—<br>
+                <strong style="color: #c0aa76;">You're shaping minds.</strong>
+            </p>
         </div>
-        <h3>Step 2: Define Your Family Values</h3>
-        <p>Next, you enter the values that matter most to your family. Helm's Deep AI uses these to align every answer, recommendation, and filter to your unique standards.</p>
+        
+        <p>That comes with <strong>higher stakes</strong>:</p>
+        
+        <ul style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+            <li>What if your chatbot subtly pushes an ideology you never approved?</li>
+            <li>What if a child can prompt-inject personal info leaks or NSFW content?</li>
+            <li>What if a parent finds out your AI gave their kid life advice that conflicts with their faith?</li>
+        </ul>
+        
+        <p style="text-align: center; font-size: 1.3rem; color: #c0aa76; margin-top: 30px;">
+            <strong>You don't get a second chance at trust.</strong>
+        </p>
+    </section>
 
-        <div class="product-image-container">
-            <img src="assets/demo_screenshots/chat.png" alt="Safe Chat Demo" class="product-image" style="max-width:400px;">
+    <section>
+        <h2>🎯 Who We Serve</h2>
+        <p>Helm's Deep AI Security is built for:</p>
+        
+        <div class="service-grid">
+            <div class="service-card">
+                <h4>🧒 Founders and PMs building AI tools for kids</h4>
+            </div>
+            <div class="service-card">
+                <h4>🛡️ Security teams auditing generative AI apps</h4>
+            </div>
+            <div class="service-card">
+                <h4>🎓 EdTech, health, faith-based, or tutoring AI platforms</h4>
+            </div>
+            <div class="service-card">
+                <h4>📱 Anyone shipping AI-powered experiences to minors</h4>
+            </div>
         </div>
-        <h3>Step 3: Safe, Value-Aligned Chat for Your Children</h3>
-        <p>Your children gain access to a chat interface where they can ask questions and explore the world—safely. If they ask about sensitive topics, Helm's Deep only provides answers that align with your family's values, including relevant quotes from your chosen religious texts.</p>
+        
+        <p style="text-align: center; margin-top: 30px;">
+            Whether you're early stage or enterprise, our audits adapt to your model, your infra, and your threat surface.
+        </p>
+    </section>
 
-        <div class="product-image-container">
-            <img src="assets/demo_screenshots/parentmode.png" alt="Parental Oversight Demo" class="product-image" style="max-width:400px;">
+    <section>
+        <h2>📊 Featured Benchmark</h2>
+        
+        <div class="highlight-box">
+            <h3>Parental Values AI Safety Benchmark</h3>
+            <ul style="text-align: left; font-size: 1.1rem; line-height: 1.8;">
+                <li>The only ideological safety benchmark built for children's models.</li>
+                <li>Tests models on indoctrination and problematic messaging.</li>
+                <li>Fully automated, reproducible, and open-source.</li>
+            </ul>
         </div>
-        <h3>Step 4: Parental Oversight & Alerts</h3>
-        <p>As a parent, you can review what your children have searched for and receive alerts if any topics you've flagged as off-limits are discussed. Helm's Deep gives you peace of mind and real control over your family's digital experience.</p>
+        
+        <p style="text-align: center; font-size: 1.2rem;">
+            We don't just flag problems.<br>
+            We <em>quantify</em> them—with metrics you can share with your board, your investors, and your users.
+        </p>
+    </section>
 
-        <hr style="margin: 40px 0; border: 1px solid #2a4a6a;">
-        <h2 style="color:#c0aa76;">Helm's Deep: The Only AI That Puts Your Family's Values First</h2>
-        <p style="font-size:1.2rem;">Protect your children, empower their learning, and ensure every answer they receive is in line with your beliefs. <strong>Sign up today and take back control of your family's digital world.</strong></p>
-        <div style="margin-top:32px;">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScclGSUfr-wkRvFbefPW2_fvgTs2gxXa5xjLQuzrYziObL3iA/viewform?usp=header" class="demo-button" target="_blank">Sign Up & Protect Your Children</a>
+    <section>
+        <h2>🧠 Built by Experts in AI Safety + Cognitive Security</h2>
+        <p>Helm's Deep is built by the same team behind the <strong><a href="value-aligned-tutor.html" style="color: #c0aa76; text-decoration: none;">Value-Aligned Tutor System</a></strong>—combining cybersecurity, model evaluation, and psychological resilience tooling for kids. We understand the full stack: from transformer models to 12-year-old brains.</p>
+    </section>
+
+    <section>
+        <h2>📞 Ready to Get Audited?</h2>
+        <p style="text-align: center; font-size: 1.3rem;">
+            Let's make sure your AI isn't leaking data, spreading ideology, or putting children at risk.<br>
+            Reach out today and schedule your <strong>AI Safety Audit</strong>.
+        </p>
+        
+        <div style="margin-top: 40px;">
+            <a href="mailto:support@helmsdeep.ai" class="cta-button">reach out to support@helmsdeep.ai</a>
         </div>
     </section>
 </body>
-</html>
+</html> 

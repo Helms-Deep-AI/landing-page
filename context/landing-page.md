@@ -1,69 +1,86 @@
-A concise landing page outline:
+# ⚔️ **Helm’s Deep AI Security**
+
+**Defending Children’s AI Apps from Digital Saboteurs**
+
+### The First Red Team Built to Secure AI for Kids
+
+AI apps for children are exploding in popularity—tutors, companions, learning tools, digital mentors. But behind every model endpoint lies a new risk: data leaks, prompt injections, ideological bias, or even manipulation.
+
+
+**Helm’s Deep AI Security** is the first red team and audit service designed *specifically* for apps using AI with children. We expose the weaknesses—so your team can fix them before it’s too late.
 
 ---
 
-## **Protecting Your Family Online**
+## 🛡️ What We Do
 
-**The internet is no longer safe for your kids.**  
- At Helm's Deep, we align the algorithms of the internet with your family values. Our mission is to provide families with the tools they need to shield their children from the harmful aspects of the online world while promoting safe, purposeful, and enriching internet use.
+### 🚨 AI Red Teaming for Children’s Apps
 
-### **Are You a Father or a Mother?**
+We simulate real-world attacks across your AI stack—prompt injections, jailbreaks, adversarial queries, and more—mimicking what an actual attacker, troll, or exploit-minded user might do.
 
-Select your role to see tailored advice on protecting your children:
+### 🧠 Ideological & Cognitive Safety Audits
 
-* **Father's Concerns:**  
-   As a father, your role is to defend your children from mental, cognitive, and cyber threats. The most dangerous threats today aren't physical, but digital. These attacks are subtle and insidious – from social engineering tactics to addiction and indoctrination. It’s your responsibility to guide your children and protect them from a system designed to undermine their development.  
-   **Be your family's defender.**
+We run your model through the **Parental Values AI Safety Benchmark**—a suite of trap prompts across high-risk categories. See how your model scores before a parent finds out the hard way.
 
-* **Mother's Concerns:**  
-   As a mother, you worry about the safety, emotional wellbeing, and development of your children. The internet offers a flood of distracting, dangerous, and addictive content. It’s easy for your kids to be led astray by predators, scammers, or harmful ideologies. Your goal is to create a nurturing, supportive environment where they can grow, learn, and thrive without the pressure of online toxicity.  
-   **Be the pillar of your family’s strength.**
+### 🧵 Prompt & Model Endpoint Penetration Testing
 
----
+We test every exposed interface: chatbots, agents, MCP integrations, retrieval systems—probing for unintended capabilities, prompt leakage, jailbreaks, or overreach.
 
-### **See the Dangers for Boys and Girls**
+### 🔐 Security Reports with Fixes
 
-Click below to discover specific risks for your child’s gender:
-
-* **Boys' Dangers:**  
-   Boys are often more susceptible to addiction, isolation, and unhealthy role models online. Video games, pornography, and power fantasies are just a few examples of the digital traps boys fall into. Helm's Deep AI helps you combat these dangers by blocking harmful content and offering alternatives that encourage real-world social interaction and emotional growth.  
-   **Protect your son from digital distractions.**
-
-* **Girls' Dangers:**  
-   Girls face unique challenges online, including social media pressures, unrealistic beauty standards, and predatory behavior. Helm's Deep AI ensures your daughter navigates the digital world safely, empowering her with positive, value-aligned content and fostering real-life connections that build her self-worth and resilience.  
-   **Guard your daughter’s emotional health online.**
+After testing, we deliver a detailed report highlighting your vulnerabilities—along with prioritized recommendations to secure your AI stack from end to end. You’ll know where you stand and how to improve.
 
 ---
 
-### **The Solution We Provide**
+## 👨‍👩‍👧‍👦 Why This Matters
 
-**Helm's Deep AI** gives you the tools to:
+If you're building AI products for children, you're not just shipping code—
+**You're shaping minds.**
 
-* Block harmful content by default and only allow whitelisted, value-aligned websites and resources.  
-* Use our powerful **Video Search Engine** to find educational, enriching, and safe content tailored to your family’s values.  
-* Prevent addiction by restricting screen time and providing alternative, real-world activities that foster emotional and intellectual growth.
+That comes with **higher stakes**:
 
-As a parent, it’s tough to navigate the digital landscape without technical expertise. That’s why Helm's Deep AI offers human-powered curation to make sure the content your child encounters is aligned with your values. We manually review, evaluate, and recommend the best content to help your child thrive.
+* What if your chatbot subtly pushes an ideology you never approved?
+* What if a child can prompt-inject personal info leaks or NSFW content?
+* What if a parent finds out your AI gave their kid life advice that conflicts with their faith?
 
-**Sign up now to receive personalized recommendations for your family.**
-
----
-
-### **Demo Videos Coming Soon\!**
-
-Stay tuned for video demos that show you how to:
-
-* Set up your family’s content profile.  
-* Search and whitelist educational videos.  
-* Monitor your child’s digital footprint.  
-* Protect against internet addiction and harmful content.
+You don’t get a second chance at trust.
 
 ---
 
-### **Call to Action**
+## 🎯 Who We Serve
 
-**Protect your child today.**  
- Sign up with your email to get started with Helm’s Deep AI and take control of your child’s digital world.
+Helm’s Deep AI Security is built for:
+
+* 🧒 **Founders and PMs building AI tools for kids**
+* 🛡️ **Security teams auditing generative AI apps**
+* 🎓 **EdTech, health, faith-based, or tutoring AI platforms**
+* 📱 **Anyone shipping AI-powered experiences to minors**
+
+Whether you’re early stage or enterprise, our audits adapt to your model, your infra, and your threat surface.
 
 ---
 
+## 📊 Featured Benchmark:
+
+### Parental Values AI Safety Benchmark
+
+> The only ideological safety benchmark built for children’s models.
+> Tests models on indoctrination and problematic messaging.
+> Fully automated, reproducible, and open-source.
+
+We don’t just flag problems.
+We *quantify* them—with metrics you can share with your board, your investors, and your users.
+
+---
+
+## 🧠 Built by Experts in AI Safety + Cognitive Security
+
+Helm’s Deep is built by the same team behind the **Value-Aligned Tutor System**—combining cybersecurity, model evaluation, and psychological resilience tooling for kids. We understand the full stack: from transformer models to 12-year-old brains.
+
+---
+
+## 📞 Ready to Get Audited?
+
+Let’s make sure your AI isn’t leaking data, spreading ideology, or putting children at risk.
+Reach out today and schedule your **AI Safety Audit**.
+
+🔗 **\[Get a Free Threat Surface Assessment →]**
