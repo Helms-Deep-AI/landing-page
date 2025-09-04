@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAG System Manipulation Protection - Helm's Deep AI Security</title>
+    <title>Products | Helm's Deep AI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
@@ -43,18 +43,47 @@
         .content-container {
             width: 90%;
             max-width: 1000px;
-            margin: 40px 0;
-            padding: 40px;
+            margin: 20px 0;
+            padding: 30px;
             background: rgba(10, 25, 41, 0.7);
             border-radius: 15px;
             border: 1px solid #2a4a6a;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
         }
         
         p {
             line-height: 1.8;
             font-size: 1.2rem;
             margin-bottom: 20px;
+        }
+        
+        .highlight-box {
+            background: rgba(192, 170, 118, 0.1);
+            border: 1px solid #c0aa76;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #c0aa76 0%, #d4b87c 100%);
+            color: #0a1929;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            margin: 20px 10px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(192, 170, 118, 0.3);
         }
         
         /* Navigation Styles */
@@ -78,9 +107,6 @@
             padding: 5px 10px;
             position: relative;
             border: none;
-            display: inline-flex;
-            align-items: center;
-            height: 100%;
         }
         
         .nav-links a::after {
@@ -103,94 +129,9 @@
             color: #c0aa76;
         }
         
-        /* Dropdown Styles */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .dropdown-toggle {
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            height: 100%;
-        }
-        
-        .dropdown-menu {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: rgba(10, 25, 41, 0.95);
-            border: 1px solid #2a4a6a;
-            border-radius: 10px;
-            min-width: 250px;
-            z-index: 1000;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            padding: 10px 0;
-        }
-        
-        .dropdown:hover .dropdown-menu {
-            display: block;
-        }
-        
-        .dropdown-section {
-            padding: 20px;
-            border-bottom: 1px solid #2a4a6a;
-        }
-        
-        .dropdown-section p {
-            color: #c0aa76;
-            font-size: 1rem;
-            margin: 0;
-            text-align: center;
-        }
-        
-        .dropdown-content {
-            display: flex;
-            padding: 20px;
-            gap: 30px;
-        }
-        
-        .dropdown-column {
-            flex: 1;
-        }
-        
-        .dropdown-menu a {
-            display: block;
-            padding: 12px 20px;
-            color: #ffffff;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            font-size: 1rem;
-        }
-        
-        .dropdown-menu a:hover {
-            background: rgba(192, 170, 118, 0.2);
-            color: #c0aa76;
-        }
-        
-        .dropdown-menu strong {
-            display: block;
-            font-size: 1.1rem;
-            margin-bottom: 5px;
-        }
-        
-        .dropdown-menu span {
-            display: block;
-            font-size: 0.9rem;
-            color: #cccccc;
-            line-height: 1.4;
-        }
-        
-        .nav-avatar {
-            height: 36px;
-            width: 36px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 18px;
-            vertical-align: middle;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        .nav-logo {
+            height: 50px;
+            margin-right: 20px;
         }
         
         /* Mobile Responsive Styles */
@@ -236,25 +177,38 @@
 </head>
 <body>
     <nav>
-        <img src="assets/avatar.png" alt="Helm's Deep Avatar" class="nav-avatar">
+        <img src="assets/helms-deep-icon.png" alt="Helm's Deep Logo" class="nav-logo">
         <div class="nav-links">
             <a href="index.html">Home</a>
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Solutions</a>
-                <div class="dropdown-menu">
-                    <a href="indoctrination.html">Indoctrination</a>
-                    <a href="rag-system-manipulation.html">RAG System Manipulation</a>
-                    <a href="privacy-data-leakage.html">Privacy & Data Leakage</a>
-                    <a href="ai-psychosis.html">AI-Psychosis</a>
-                </div>
-            </div>
+            <a href="products.html">Products</a>
             <a href="blog.html">Blog</a>
         </div>
     </nav>
 
     <div class="content-container">
-        <h1>🔒 RAG System Manipulation Protection</h1>
-        <p>Coming soon...</p>
+        <h1>🛡️ Helm's Deep AI Products</h1>
+        
+        <div class="highlight-box">
+            <h2>Coming Soon</h2>
+            <p>Our comprehensive suite of AI-powered cybersecurity compliance products is currently in development.</p>
+            <p>We're building the tools that will revolutionize how SMBs in the Defense Industrial Base achieve and maintain compliance with ITAR, CMMC, and FedRamp requirements.</p>
+        </div>
+        
+        <p>Our products will include:</p>
+        <ul style="text-align: left; font-size: 1.1rem; line-height: 1.8; max-width: 600px; margin: 0 auto;">
+            <li><strong>AI-Powered Compliance Assessment Platform</strong> - Automated gap analysis and remediation planning</li>
+            <li><strong>Continuous Monitoring & Alerting System</strong> - 24/7 vigilance over your cybersecurity posture</li>
+            <li><strong>Automated Documentation Generator</strong> - Streamlined preparation for audits and certifications</li>
+            <li><strong>Regulatory Update Intelligence</strong> - Stay current with evolving compliance requirements</li>
+        </ul>
+        
+        <div style="margin-top: 40px;">
+            <a href="mailto:support@helmsdeep.ai" class="cta-button">Contact Us for Early Access</a>
+        </div>
+        
+        <p style="margin-top: 30px; font-size: 1.1rem; color: #c0aa76;">
+            <strong>Building cyber fortresses to defend the West.</strong>
+        </p>
     </div>
 </body>
-</html> 
+</html>
